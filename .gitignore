@@ -1,4 +1,5 @@
 python-slackclient
+slackclient
 *.pyc
 creds
 log
