@@ -4,7 +4,7 @@ import socket
 import urllib.request
 
 
-token = open("creds", "rt").read()
+token = open("creds", "rt").read().strip()
 sc = SlackClient(token)
 print(sc.api_call("api.test"))
 
