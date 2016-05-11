@@ -12,7 +12,10 @@ git pull
 # TODO
 
 # get packages
-sudo apt-get install python3 git #pip3
+sudo apt-get install python3 git python3-pip
+
+# dependency for slackclient
+sudo pip3 install websocket-client
 
 # git python-slackclient
 git clone https://github.com/slackhq/python-slackclient
